@@ -1,0 +1,23 @@
+version: '3'
+services:
+  backend:
+    build: ../server
+    environment:
+      - PORT=5050 
+    deploy:
+      replicas: 4
+    networks:
+      - loadbalancing
+
+  nginx:
+    build: ../nginx
+    container_name: nginx
+    ports:
+      - "80:80"
+    networks:
+      - loadbalancing
+    depends_on:
+      - backend
+
+networks:
+  loadbalancing:
