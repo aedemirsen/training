@@ -30,6 +30,6 @@ English - https://medium.com/@aedemirsen/kubernetes-loadbalancer-and-ingress-con
 
 #### Spring Boot - Swagger - OpenAPI -->
 
-Türkçe - 
+Türkçe - https://medium.com/@aedemirsen/swagger-ve-openapi-nedir-spring-boot-ile-swagger-entegrasyonu-8f0fae0e7eb8
 
-English - 
+English - https://medium.com/@aedemirsen/what-is-swagger-and-openapi-swagger-integration-with-spring-boot-63dff889257a
