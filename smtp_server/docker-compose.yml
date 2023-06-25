@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  smtp-server:
+    container_name: smtp-server
+    build:
+      context: .
+      args:
+        EMAIL: ${EMAIL}
+        EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+        MAIL_NAME: ${MAIL_NAME}
+        SMTP_DOMAIN: ${SMTP_DOMAIN}
+        SMTP_PORT: ${SMTP_PORT}
+    ports:
+      - ${PORT}:25
