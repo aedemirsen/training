@@ -33,3 +33,9 @@ English - https://medium.com/@aedemirsen/kubernetes-loadbalancer-and-ingress-con
 Türkçe - https://medium.com/@aedemirsen/swagger-ve-openapi-nedir-spring-boot-ile-swagger-entegrasyonu-8f0fae0e7eb8
 
 English - https://medium.com/@aedemirsen/what-is-swagger-and-openapi-swagger-integration-with-spring-boot-63dff889257a
+
+# How Do We Set Up Our Own Send-Only SMTP Server? (Postfix, Docker, Gmail) -->
+
+Türkçe - https://medium.com/@aedemirsen/kendi-send-only-smtp-sunucumuzu-nas%C4%B1l-kurar%C4%B1z-postfix-docker-gmail-804f1d3be65a
+
+English - https://medium.com/@aedemirsen/how-do-we-set-up-our-own-send-only-smtp-server-postfix-docker-gmail-6a8a1bb57ea5
