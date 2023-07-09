@@ -39,3 +39,13 @@ English - https://medium.com/@aedemirsen/what-is-swagger-and-openapi-swagger-int
 Türkçe - https://medium.com/@aedemirsen/kendi-send-only-smtp-sunucumuzu-nas%C4%B1l-kurar%C4%B1z-postfix-docker-gmail-804f1d3be65a
 
 English - https://medium.com/@aedemirsen/how-do-we-set-up-our-own-send-only-smtp-server-postfix-docker-gmail-6a8a1bb57ea5
+
+# Spring Boot and Mongo DB -->
+
+Türkçe
+  - Bölüm 1 - https://medium.com/@aedemirsen/spring-boot-mongodb-ve-aggregation-framework-a4498ee2ce24
+  - Bölüm 2 - https://medium.com/@aedemirsen/spring-boot-mongo-db-ve-rest-api-22940810a06d
+
+English
+  - Part 1 - https://medium.com/@aedemirsen/spring-boot-mongodb-and-aggregation-framework-fee322f91d06
+  - Part 2 - https://medium.com/@aedemirsen/spring-boot-mongo-db-and-rest-api-e4c43f14bfed
