@@ -27,9 +27,6 @@ public class StudentController {
     @GetMapping("/student/id/{id}")
     public ResponseEntity<StudentDto> findStudentById(@PathVariable String id) {
         var student = studentService.findStudentById(id);
-        if(student == null) {
-            return ResponseEntity.notFound().build();
-        }
         var foundStudent = studentMapper.fromStudent(student);
         return ResponseEntity.ok(foundStudent);
     }
@@ -41,6 +38,4 @@ public class StudentController {
         var insertedStudentDto = studentMapper.fromStudent(insertedStudent);
         return ResponseEntity.ok(insertedStudentDto);
     }
-
-
 }
