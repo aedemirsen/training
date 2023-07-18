@@ -20,6 +20,7 @@ public class StudentController {
 
     @GetMapping("/student/all")
     public List<StudentDto> findAllStudents() {
+        System.out.println("findAllStudents - Controller Method");
         return studentService.findAllStudents().stream()
                 .map(studentMapper::fromStudent).collect(Collectors.toList());
     }
