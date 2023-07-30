@@ -3,3 +3,4 @@
 Springboot_mongodb/docker/mongo
 
 .idea
+/postgresql-init/docker/postgres/data
