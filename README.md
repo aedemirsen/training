@@ -49,3 +49,9 @@ Türkçe
 English
   - Part 1 - https://medium.com/@aedemirsen/spring-boot-mongodb-and-aggregation-framework-fee322f91d06
   - Part 2 - https://medium.com/@aedemirsen/spring-boot-mongo-db-and-rest-api-e4c43f14bfed
+
+# Postgresql Init Sql Scripts at Startup With Docker
+
+Türkçe - https://medium.com/@aedemirsen/docker-ile-postgresql-veritabanı-başlatılırken-sql-komutları-nasıl-çalıştırılır-fb1bd763a25e
+
+English - https://medium.com/@aedemirsen/execute-sql-commands-at-postgresql-db-startup-with-docker-2be0abadec48
