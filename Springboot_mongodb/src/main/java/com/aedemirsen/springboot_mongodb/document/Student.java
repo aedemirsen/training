@@ -5,8 +5,11 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.SuperBuilder;
-import org.springframework.data.annotation.Id;
+import org.springframework.data.annotation.*;
 import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.time.LocalDateTime;
+import java.util.UUID;
 
 @SuperBuilder
 @Getter
@@ -21,4 +24,16 @@ public class Student {
     private String lastName;
     private int age;
     private String email;
+
+    @CreatedDate
+    private LocalDateTime createdDate;
+
+    @LastModifiedDate
+    private LocalDateTime lastModifiedDate;
+
+    @CreatedBy
+    private UUID createdBy;
+
+    @LastModifiedBy
+    private UUID lastModifiedBy;
 }
