@@ -55,3 +55,9 @@ English
 Türkçe - https://medium.com/@aedemirsen/docker-ile-postgresql-veritabanı-başlatılırken-sql-komutları-nasıl-çalıştırılır-fb1bd763a25e
 
 English - https://medium.com/@aedemirsen/execute-sql-commands-at-postgresql-db-startup-with-docker-2be0abadec48
+
+# Spring Data MongoDB Auditing
+
+Türkçe - https://medium.com/@aedemirsen/spring-data-mongodb-auditing-d5ee3820c5cc
+
+English - https://medium.com/@aedemirsen/spring-data-mongodb-auditing-dd96c36a6019
